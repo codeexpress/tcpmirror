@@ -82,9 +82,9 @@ func main() {
 }
 
 func Usage() {
-	fmt.Fprintf(os.Stderr, "pomi version %s\n", Version)
-	fmt.Fprintf(os.Stderr, "Usage:   $ pomi -l <listen_addr> -p <primary_addr> -m <mirror_addrs\n")
-	fmt.Fprintf(os.Stderr, "Example: $ pomi -l localhost:8080 -p localhost:9090 -m localhost:9091,localhost:9091 \n")
+	fmt.Fprintf(os.Stderr, "tcpmirror version %s\n", Version)
+	fmt.Fprintf(os.Stderr, "Usage:   $ tcpmirror -l <listen_addr> -p <primary_addr> -m <mirror_addrs\n")
+	fmt.Fprintf(os.Stderr, "Example: $ tcpmirror -l localhost:8080 -p localhost:9090 -m localhost:9091,localhost:9091 \n")
 	fmt.Fprintf(os.Stderr, "-----------------------\nFlags:\n")
 	flag.PrintDefaults()
 }

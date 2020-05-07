@@ -20,11 +20,11 @@ new server responds the same as existing server for same requests.
 
 ## Install
 
-#### Download from the releases pages
+### Download from the releases pages
 
 Download pre-built binary from the release page.
 
-#### Use `go get`
+### Use `go get`
 
 If you have `golang` tools installed, you can download and build the source code
 locally as follows:
@@ -33,7 +33,7 @@ $ go get github.com/codeexpress/tcpmirror
 ```
 The `tcpmirror` binary is now available in your `$GOPATH/bin` directory
 
-#### Compile from source
+### Compile from source
 
 ```
 $ git clone https://github.com/codeexpress/tcpmirror.git
